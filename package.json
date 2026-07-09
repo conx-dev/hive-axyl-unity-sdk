@@ -1,0 +1,23 @@
+{
+  "name": "com.hiveaxyl.sdk",
+  "version": "0.1.0",
+  "displayName": "Hive Axyl SDK",
+  "description": "Unity SDK for Hive Axyl authentication, notices, mailbox, payments, and platform services.",
+  "unity": "2021.3",
+  "dependencies": {
+    "com.unity.modules.unitywebrequest": "1.0.0"
+  },
+  "keywords": [
+    "hive-axyl",
+    "sdk",
+    "auth",
+    "protobuf"
+  ],
+  "author": {
+    "name": "Hive Axyl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conx-dev/hive-axyl-unity-sdk.git"
+  }
+}

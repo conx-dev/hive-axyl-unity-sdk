@@ -1,0 +1,14 @@
+{
+  "name": "HiveAxylSDK",
+  "rootNamespace": "HiveAxyl.Sdk",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
