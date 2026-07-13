@@ -73,6 +73,14 @@ namespace HiveAxyl.Sdk
             return await LoginAsync(IdentityProvider.Google, idToken);
         }
 
+        public async Task<Player> LoginWithFacebookDesktopAsync(int port = 0)
+        {
+            ConnectClient activeClient = RequireClient();
+            CompleteFacebookDesktopLoginResponse response =
+                await FacebookDesktopSignIn.SignInAsync(activeClient, platform, port);
+            return SaveLogin(response.Player, response.TokenPair);
+        }
+
         public async Task<Player> GetPlayerAsync()
         {
             if (string.IsNullOrEmpty(session.AccessToken))
@@ -219,8 +227,17 @@ namespace HiveAxyl.Sdk
                 throw HiveAxylException.Transport("login response missing player or token pair");
             }
 
-            session.Save(response.TokenPair);
-            Player logged = Player.From(response.Player);
+            return SaveLogin(response.Player, response.TokenPair);
+        }
+
+        private Player SaveLogin(Hiveng.V1.Player playerMessage, TokenPair tokenPair)
+        {
+            if (playerMessage == null || tokenPair == null)
+            {
+                throw HiveAxylException.Transport("login response missing player or token pair");
+            }
+            session.Save(tokenPair);
+            Player logged = Player.From(playerMessage);
             SetPlayer(logged);
             return logged;
         }

@@ -1,7 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Net;
-using System.Net.Sockets;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,9 +12,6 @@ namespace HiveAxyl.Sdk
     {
         private const string AuthUrl = "https://accounts.google.com/o/oauth2/v2/auth";
         private const string TokenUrl = "https://oauth2.googleapis.com/token";
-        private const int CallbackTimeoutMs = 120000;
-        private const int RequestReadFrames = 80;
-
         [Serializable]
         private sealed class TokenResponse
         {
@@ -33,16 +28,13 @@ namespace HiveAxyl.Sdk
             }
             string resolvedClientSecret = clientSecret == null ? "" : clientSecret.Trim();
 
-            TcpListener listener = new TcpListener(IPAddress.Loopback, port);
-            listener.Start();
-            try
+            using (DesktopOAuthLoopbackServer loopback = DesktopOAuthLoopbackServer.Start(port))
             {
-                int localPort = ((IPEndPoint)listener.LocalEndpoint).Port;
-                string redirectUri = "http://127.0.0.1:" + localPort + "/callback";
-                string state = RandomUrlToken(16);
-                string verifier = RandomUrlToken(32);
+                string redirectUri = loopback.RedirectUri;
+                string state = DesktopOAuthLoopbackServer.RandomUrlToken(16);
+                string verifier = DesktopOAuthLoopbackServer.RandomUrlToken(32);
                 string challenge = Base64Url(Sha256(verifier));
-                string nonce = RandomUrlToken(16);
+                string nonce = DesktopOAuthLoopbackServer.RandomUrlToken(16);
                 string url = AuthUrl + "?" + FormEncode(new Dictionary<string, string>
                 {
                     { "response_type", "code" },
@@ -57,12 +49,17 @@ namespace HiveAxyl.Sdk
                 });
 
                 Application.OpenURL(url);
-                string code = await WaitForCallbackAsync(listener, state);
+                Dictionary<string, string> parameters = await loopback.WaitForCallbackAsync(
+                    state,
+                    "state",
+                    "Google");
+                string code;
+                parameters.TryGetValue("code", out code);
+                if (string.IsNullOrEmpty(code))
+                {
+                    throw HiveAxylException.InvalidArgument("Google authorization code is missing");
+                }
                 return await ExchangeCodeAsync(resolvedClientId, resolvedClientSecret, verifier, redirectUri, code);
-            }
-            finally
-            {
-                listener.Stop();
             }
 #else
             await Task.CompletedTask;
@@ -72,121 +69,6 @@ namespace HiveAxyl.Sdk
         }
 
 #if UNITY_STANDALONE || UNITY_EDITOR
-        private static async Task<string> WaitForCallbackAsync(TcpListener listener, string state)
-        {
-            int timeoutAt = Environment.TickCount + CallbackTimeoutMs;
-            while (Environment.TickCount < timeoutAt)
-            {
-                if (!listener.Pending())
-                {
-                    await Task.Yield();
-                    continue;
-                }
-
-                using (TcpClient client = listener.AcceptTcpClient())
-                {
-                    string requestText = await ReadRequestAsync(client);
-                    Dictionary<string, string> parameters = ParseCallbackQuery(requestText);
-                    WriteCallbackResponse(client, parameters.ContainsKey("error"));
-                    if (parameters.ContainsKey("error"))
-                    {
-                        throw HiveAxylException.Transport("Google sign-in failed: " + parameters["error"]);
-                    }
-                    string returnedState;
-                    parameters.TryGetValue("state", out returnedState);
-                    if (returnedState != state)
-                    {
-                        throw HiveAxylException.InvalidArgument("Google sign-in state mismatch");
-                    }
-                    string code;
-                    parameters.TryGetValue("code", out code);
-                    if (string.IsNullOrEmpty(code))
-                    {
-                        throw HiveAxylException.InvalidArgument("Google authorization code is missing");
-                    }
-                    return code;
-                }
-            }
-            throw HiveAxylException.Transport("Google sign-in timed out");
-        }
-
-        private static async Task<string> ReadRequestAsync(TcpClient client)
-        {
-            NetworkStream stream = client.GetStream();
-            StringBuilder builder = new StringBuilder();
-            byte[] buffer = new byte[4096];
-            for (int i = 0; i < RequestReadFrames; i++)
-            {
-                while (stream.DataAvailable)
-                {
-                    int read = stream.Read(buffer, 0, buffer.Length);
-                    if (read <= 0)
-                    {
-                        break;
-                    }
-                    builder.Append(Encoding.UTF8.GetString(buffer, 0, read));
-                }
-                if (builder.ToString().Contains("\r\n\r\n"))
-                {
-                    return builder.ToString();
-                }
-                await Task.Yield();
-            }
-            return builder.ToString();
-        }
-
-        private static Dictionary<string, string> ParseCallbackQuery(string requestText)
-        {
-            Dictionary<string, string> parameters = new Dictionary<string, string>();
-            int lineEnd = requestText.IndexOf("\r\n", StringComparison.Ordinal);
-            string requestLine = lineEnd >= 0 ? requestText.Substring(0, lineEnd) : requestText;
-            string[] parts = requestLine.Split(' ');
-            if (parts.Length < 2)
-            {
-                return parameters;
-            }
-
-            string path = parts[1];
-            int question = path.IndexOf('?');
-            if (question < 0)
-            {
-                return parameters;
-            }
-
-            string query = path.Substring(question + 1);
-            string[] pairs = query.Split('&');
-            for (int i = 0; i < pairs.Length; i++)
-            {
-                string pair = pairs[i];
-                int equals = pair.IndexOf('=');
-                if (equals < 0)
-                {
-                    continue;
-                }
-                string key = Uri.UnescapeDataString(pair.Substring(0, equals));
-                string value = Uri.UnescapeDataString(pair.Substring(equals + 1).Replace("+", " "));
-                parameters[key] = value;
-            }
-            return parameters;
-        }
-
-        private static void WriteCallbackResponse(TcpClient client, bool failed)
-        {
-            string body = failed
-                ? "<!doctype html><html><body><h1>Hive Axyl sign-in failed</h1><p>You can close this window.</p></body></html>"
-                : "<!doctype html><html><body><h1>Hive Axyl sign-in complete</h1><p>You can return to Unity.</p></body></html>";
-            byte[] bodyBytes = Encoding.UTF8.GetBytes(body);
-            string header = "HTTP/1.1 200 OK\r\n"
-                + "Content-Type: text/html; charset=utf-8\r\n"
-                + "Content-Length: " + bodyBytes.Length + "\r\n"
-                + "Connection: close\r\n\r\n";
-            byte[] headerBytes = Encoding.UTF8.GetBytes(header);
-            NetworkStream stream = client.GetStream();
-            stream.Write(headerBytes, 0, headerBytes.Length);
-            stream.Write(bodyBytes, 0, bodyBytes.Length);
-            stream.Flush();
-        }
-
         private static async Task<string> ExchangeCodeAsync(
             string clientId,
             string clientSecret,
@@ -270,16 +152,6 @@ namespace HiveAxyl.Sdk
             return builder.ToString();
         }
 
-        private static string RandomUrlToken(int byteLength)
-        {
-            byte[] bytes = new byte[byteLength];
-            using (RandomNumberGenerator generator = RandomNumberGenerator.Create())
-            {
-                generator.GetBytes(bytes);
-            }
-            return Base64Url(bytes);
-        }
-
         private static byte[] Sha256(string value)
         {
             using (SHA256 sha = SHA256.Create())
@@ -290,10 +162,7 @@ namespace HiveAxyl.Sdk
 
         private static string Base64Url(byte[] bytes)
         {
-            return Convert.ToBase64String(bytes)
-                .Replace("+", "-")
-                .Replace("/", "_")
-                .TrimEnd('=');
+            return DesktopOAuthLoopbackServer.Base64Url(bytes);
         }
 #endif
     }

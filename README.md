@@ -14,7 +14,7 @@ Hive Axyl Unity SDK is a UPM package for game clients. It provides authenticatio
 Add the package from Git URL in Unity Package Manager:
 
 ```text
-https://github.com/conx-dev/hive-axyl-unity-sdk.git#0.1.0
+https://github.com/conx-dev/hive-axyl-unity-sdk.git#<VERSION>
 ```
 
 Or add it to `Packages/manifest.json`:
@@ -22,10 +22,12 @@ Or add it to `Packages/manifest.json`:
 ```json
 {
   "dependencies": {
-    "com.hiveaxyl.sdk": "https://github.com/conx-dev/hive-axyl-unity-sdk.git#0.1.0"
+    "com.hiveaxyl.sdk": "https://github.com/conx-dev/hive-axyl-unity-sdk.git#<VERSION>"
   }
 }
 ```
+
+Replace `<VERSION>` with a published SDK version.
 
 ## Initialize
 
@@ -82,11 +84,14 @@ Supported auth entry points:
 - `hive.Auth.LoginAsGuestAsync(deviceId)`
 - `hive.Auth.LoginWithGoogleAsync(idToken)`
 - `hive.Auth.LoginWithGoogleDesktopAsync(clientId, clientSecret, port)`
+- `hive.Auth.LoginWithFacebookDesktopAsync(port)`
 - `hive.Auth.RestoreSessionAsync()`
 - `hive.Auth.LogoutAsync()`
 - `hive.Auth.CurrentPlayer()`
 
-OAuth tokens are obtained by your game through the platform provider SDKs. Hive Axyl SDK sends those tokens to the Hive Axyl server for validation.
+Direct provider login accepts OAuth tokens obtained by your game through platform provider SDKs and sends them to the Hive Axyl server for validation.
+
+`LoginWithFacebookDesktopAsync()` is available for Standalone and Editor builds. It opens the system browser, receives the server callback through a `127.0.0.1` loopback listener, and completes login with a short-lived one-time code. Configure the Facebook App ID and App Secret only in the Hive Axyl console.
 
 ## Payments
 

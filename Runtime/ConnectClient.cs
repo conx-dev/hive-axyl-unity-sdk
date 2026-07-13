@@ -121,10 +121,17 @@ namespace HiveAxyl.Sdk
                 request.SetRequestHeader("X-Hive-Ng-Language", language);
             }
             string accessToken = session.AccessToken;
-            if (!string.IsNullOrEmpty(accessToken) && method != "RefreshToken")
+            if (!string.IsNullOrEmpty(accessToken) && UsesPlayerToken(method))
             {
                 request.SetRequestHeader("X-Player-Token", accessToken);
             }
+        }
+
+        private static bool UsesPlayerToken(string method)
+        {
+            return method != "RefreshToken"
+                && method != "StartFacebookDesktopLogin"
+                && method != "CompleteFacebookDesktopLogin";
         }
 
         private static Task SendAsync(UnityWebRequest request)

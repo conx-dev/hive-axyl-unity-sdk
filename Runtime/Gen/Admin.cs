@@ -39,45 +39,60 @@ namespace Hiveng.V1 {
             "BXRva2VuIkAKDExvZ2luUmVxdWVzdBIUCgVlbWFpbBgBIAEoCVIFZW1haWwS",
             "GgoIcGFzc3dvcmQYAiABKAlSCHBhc3N3b3JkIk0KDUxvZ2luUmVzcG9uc2US",
             "JgoFYWRtaW4YASABKAsyEC5oaXZlbmcudjEuQWRtaW5SBWFkbWluEhQKBXRv",
-            "a2VuGAIgASgJUgV0b2tlbiJlChVDaGFuZ2VQYXNzd29yZFJlcXVlc3QSKQoQ",
-            "Y3VycmVudF9wYXNzd29yZBgBIAEoCVIPY3VycmVudFBhc3N3b3JkEiEKDG5l",
-            "d19wYXNzd29yZBgCIAEoCVILbmV3UGFzc3dvcmQiGAoWQ2hhbmdlUGFzc3dv",
-            "cmRSZXNwb25zZSJ6ChdBZGRQcm9qZWN0TWVtYmVyUmVxdWVzdBIdCgpwcm9q",
-            "ZWN0X2lkGAEgASgJUglwcm9qZWN0SWQSFAoFZW1haWwYAiABKAlSBWVtYWls",
-            "EioKBHJvbGUYAyABKA4yFi5oaXZlbmcudjEuUHJvamVjdFJvbGVSBHJvbGUi",
-            "TAoYQWRkUHJvamVjdE1lbWJlclJlc3BvbnNlEjAKBm1lbWJlchgBIAEoCzIY",
-            "LmhpdmVuZy52MS5Qcm9qZWN0TWVtYmVyUgZtZW1iZXIiVgoaUmVtb3ZlUHJv",
-            "amVjdE1lbWJlclJlcXVlc3QSHQoKcHJvamVjdF9pZBgBIAEoCVIJcHJvamVj",
-            "dElkEhkKCGFkbWluX2lkGAIgASgJUgdhZG1pbklkIh0KG1JlbW92ZVByb2pl",
-            "Y3RNZW1iZXJSZXNwb25zZSKGAQoeVXBkYXRlUHJvamVjdE1lbWJlclJvbGVS",
-            "ZXF1ZXN0Eh0KCnByb2plY3RfaWQYASABKAlSCXByb2plY3RJZBIZCghhZG1p",
-            "bl9pZBgCIAEoCVIHYWRtaW5JZBIqCgRyb2xlGAMgASgOMhYuaGl2ZW5nLnYx",
-            "LlByb2plY3RSb2xlUgRyb2xlIlMKH1VwZGF0ZVByb2plY3RNZW1iZXJSb2xl",
-            "UmVzcG9uc2USMAoGbWVtYmVyGAEgASgLMhguaGl2ZW5nLnYxLlByb2plY3RN",
-            "ZW1iZXJSBm1lbWJlciI6ChlMaXN0UHJvamVjdE1lbWJlcnNSZXF1ZXN0Eh0K",
-            "CnByb2plY3RfaWQYASABKAlSCXByb2plY3RJZCJQChpMaXN0UHJvamVjdE1l",
-            "bWJlcnNSZXNwb25zZRIyCgdtZW1iZXJzGAEgAygLMhguaGl2ZW5nLnYxLlBy",
-            "b2plY3RNZW1iZXJSB21lbWJlcnMqdAoLUHJvamVjdFJvbGUSHAoYUFJPSkVD",
-            "VF9ST0xFX1VOU1BFQ0lGSUVEEAASFgoSUFJPSkVDVF9ST0xFX09XTkVSEAES",
-            "FgoSUFJPSkVDVF9ST0xFX0FETUlOEAISFwoTUFJPSkVDVF9ST0xFX1ZJRVdF",
-            "UhADMo8BChJDb25zb2xlQXV0aFNlcnZpY2USPQoGU2lnblVwEhguaGl2ZW5n",
-            "LnYxLlNpZ25VcFJlcXVlc3QaGS5oaXZlbmcudjEuU2lnblVwUmVzcG9uc2US",
-            "OgoFTG9naW4SFy5oaXZlbmcudjEuTG9naW5SZXF1ZXN0GhguaGl2ZW5nLnYx",
-            "LkxvZ2luUmVzcG9uc2UyZwoOQ29uc29sZVNlcnZpY2USVQoOQ2hhbmdlUGFz",
-            "c3dvcmQSIC5oaXZlbmcudjEuQ2hhbmdlUGFzc3dvcmRSZXF1ZXN0GiEuaGl2",
-            "ZW5nLnYxLkNoYW5nZVBhc3N3b3JkUmVzcG9uc2UytQMKG0NvbnNvbGVQcm9q",
-            "ZWN0TWVtYmVyU2VydmljZRJbChBBZGRQcm9qZWN0TWVtYmVyEiIuaGl2ZW5n",
-            "LnYxLkFkZFByb2plY3RNZW1iZXJSZXF1ZXN0GiMuaGl2ZW5nLnYxLkFkZFBy",
-            "b2plY3RNZW1iZXJSZXNwb25zZRJkChNSZW1vdmVQcm9qZWN0TWVtYmVyEiUu",
-            "aGl2ZW5nLnYxLlJlbW92ZVByb2plY3RNZW1iZXJSZXF1ZXN0GiYuaGl2ZW5n",
-            "LnYxLlJlbW92ZVByb2plY3RNZW1iZXJSZXNwb25zZRJwChdVcGRhdGVQcm9q",
-            "ZWN0TWVtYmVyUm9sZRIpLmhpdmVuZy52MS5VcGRhdGVQcm9qZWN0TWVtYmVy",
-            "Um9sZVJlcXVlc3QaKi5oaXZlbmcudjEuVXBkYXRlUHJvamVjdE1lbWJlclJv",
-            "bGVSZXNwb25zZRJhChJMaXN0UHJvamVjdE1lbWJlcnMSJC5oaXZlbmcudjEu",
-            "TGlzdFByb2plY3RNZW1iZXJzUmVxdWVzdBolLmhpdmVuZy52MS5MaXN0UHJv",
-            "amVjdE1lbWJlcnNSZXNwb25zZUJgCg1jb20uaGl2ZW5nLnYxQgpBZG1pblBy",
-            "b3RvUAGiAgNIWFiqAglIaXZlbmcuVjHKAglIaXZlbmdcVjHiAhVIaXZlbmdc",
-            "VjFcR1BCTWV0YWRhdGHqAgpIaXZlbmc6OlYxYgZwcm90bzM="));
+            "a2VuGAIgASgJUgV0b2tlbiIeChxDcmVhdGVNY3BTZXNzaW9uVG9rZW5SZXF1",
+            "ZXN0Im4KHUNyZWF0ZU1jcFNlc3Npb25Ub2tlblJlc3BvbnNlEhIKBGNvZGUY",
+            "ASABKAlSBGNvZGUSOQoKZXhwaXJlc19hdBgCIAEoCzIaLmdvb2dsZS5wcm90",
+            "b2J1Zi5UaW1lc3RhbXBSCWV4cGlyZXNBdCIzCh1Db25zdW1lTWNwU2Vzc2lv",
+            "blRva2VuUmVxdWVzdBISCgRjb2RlGAEgASgJUgRjb2RlIl4KHkNvbnN1bWVN",
+            "Y3BTZXNzaW9uVG9rZW5SZXNwb25zZRImCgVhZG1pbhgBIAEoCzIQLmhpdmVu",
+            "Zy52MS5BZG1pblIFYWRtaW4SFAoFdG9rZW4YAiABKAlSBXRva2VuImUKFUNo",
+            "YW5nZVBhc3N3b3JkUmVxdWVzdBIpChBjdXJyZW50X3Bhc3N3b3JkGAEgASgJ",
+            "Ug9jdXJyZW50UGFzc3dvcmQSIQoMbmV3X3Bhc3N3b3JkGAIgASgJUgtuZXdQ",
+            "YXNzd29yZCIYChZDaGFuZ2VQYXNzd29yZFJlc3BvbnNlIh0KG0NvbnNvbGVT",
+            "ZXJ2aWNlTG9nb3V0UmVxdWVzdCIeChxDb25zb2xlU2VydmljZUxvZ291dFJl",
+            "c3BvbnNlInoKF0FkZFByb2plY3RNZW1iZXJSZXF1ZXN0Eh0KCnByb2plY3Rf",
+            "aWQYASABKAlSCXByb2plY3RJZBIUCgVlbWFpbBgCIAEoCVIFZW1haWwSKgoE",
+            "cm9sZRgDIAEoDjIWLmhpdmVuZy52MS5Qcm9qZWN0Um9sZVIEcm9sZSJMChhB",
+            "ZGRQcm9qZWN0TWVtYmVyUmVzcG9uc2USMAoGbWVtYmVyGAEgASgLMhguaGl2",
+            "ZW5nLnYxLlByb2plY3RNZW1iZXJSBm1lbWJlciJWChpSZW1vdmVQcm9qZWN0",
+            "TWVtYmVyUmVxdWVzdBIdCgpwcm9qZWN0X2lkGAEgASgJUglwcm9qZWN0SWQS",
+            "GQoIYWRtaW5faWQYAiABKAlSB2FkbWluSWQiHQobUmVtb3ZlUHJvamVjdE1l",
+            "bWJlclJlc3BvbnNlIoYBCh5VcGRhdGVQcm9qZWN0TWVtYmVyUm9sZVJlcXVl",
+            "c3QSHQoKcHJvamVjdF9pZBgBIAEoCVIJcHJvamVjdElkEhkKCGFkbWluX2lk",
+            "GAIgASgJUgdhZG1pbklkEioKBHJvbGUYAyABKA4yFi5oaXZlbmcudjEuUHJv",
+            "amVjdFJvbGVSBHJvbGUiUwofVXBkYXRlUHJvamVjdE1lbWJlclJvbGVSZXNw",
+            "b25zZRIwCgZtZW1iZXIYASABKAsyGC5oaXZlbmcudjEuUHJvamVjdE1lbWJl",
+            "clIGbWVtYmVyIjoKGUxpc3RQcm9qZWN0TWVtYmVyc1JlcXVlc3QSHQoKcHJv",
+            "amVjdF9pZBgBIAEoCVIJcHJvamVjdElkIlAKGkxpc3RQcm9qZWN0TWVtYmVy",
+            "c1Jlc3BvbnNlEjIKB21lbWJlcnMYASADKAsyGC5oaXZlbmcudjEuUHJvamVj",
+            "dE1lbWJlclIHbWVtYmVycyp0CgtQcm9qZWN0Um9sZRIcChhQUk9KRUNUX1JP",
+            "TEVfVU5TUEVDSUZJRUQQABIWChJQUk9KRUNUX1JPTEVfT1dORVIQARIWChJQ",
+            "Uk9KRUNUX1JPTEVfQURNSU4QAhIXChNQUk9KRUNUX1JPTEVfVklFV0VSEAMy",
+            "/gEKEkNvbnNvbGVBdXRoU2VydmljZRI9CgZTaWduVXASGC5oaXZlbmcudjEu",
+            "U2lnblVwUmVxdWVzdBoZLmhpdmVuZy52MS5TaWduVXBSZXNwb25zZRI6CgVM",
+            "b2dpbhIXLmhpdmVuZy52MS5Mb2dpblJlcXVlc3QaGC5oaXZlbmcudjEuTG9n",
+            "aW5SZXNwb25zZRJtChZDb25zdW1lTWNwU2Vzc2lvblRva2VuEiguaGl2ZW5n",
+            "LnYxLkNvbnN1bWVNY3BTZXNzaW9uVG9rZW5SZXF1ZXN0GikuaGl2ZW5nLnYx",
+            "LkNvbnN1bWVNY3BTZXNzaW9uVG9rZW5SZXNwb25zZTKuAgoOQ29uc29sZVNl",
+            "cnZpY2USWQoGTG9nb3V0EiYuaGl2ZW5nLnYxLkNvbnNvbGVTZXJ2aWNlTG9n",
+            "b3V0UmVxdWVzdBonLmhpdmVuZy52MS5Db25zb2xlU2VydmljZUxvZ291dFJl",
+            "c3BvbnNlElUKDkNoYW5nZVBhc3N3b3JkEiAuaGl2ZW5nLnYxLkNoYW5nZVBh",
+            "c3N3b3JkUmVxdWVzdBohLmhpdmVuZy52MS5DaGFuZ2VQYXNzd29yZFJlc3Bv",
+            "bnNlEmoKFUNyZWF0ZU1jcFNlc3Npb25Ub2tlbhInLmhpdmVuZy52MS5DcmVh",
+            "dGVNY3BTZXNzaW9uVG9rZW5SZXF1ZXN0GiguaGl2ZW5nLnYxLkNyZWF0ZU1j",
+            "cFNlc3Npb25Ub2tlblJlc3BvbnNlMrUDChtDb25zb2xlUHJvamVjdE1lbWJl",
+            "clNlcnZpY2USWwoQQWRkUHJvamVjdE1lbWJlchIiLmhpdmVuZy52MS5BZGRQ",
+            "cm9qZWN0TWVtYmVyUmVxdWVzdBojLmhpdmVuZy52MS5BZGRQcm9qZWN0TWVt",
+            "YmVyUmVzcG9uc2USZAoTUmVtb3ZlUHJvamVjdE1lbWJlchIlLmhpdmVuZy52",
+            "MS5SZW1vdmVQcm9qZWN0TWVtYmVyUmVxdWVzdBomLmhpdmVuZy52MS5SZW1v",
+            "dmVQcm9qZWN0TWVtYmVyUmVzcG9uc2UScAoXVXBkYXRlUHJvamVjdE1lbWJl",
+            "clJvbGUSKS5oaXZlbmcudjEuVXBkYXRlUHJvamVjdE1lbWJlclJvbGVSZXF1",
+            "ZXN0GiouaGl2ZW5nLnYxLlVwZGF0ZVByb2plY3RNZW1iZXJSb2xlUmVzcG9u",
+            "c2USYQoSTGlzdFByb2plY3RNZW1iZXJzEiQuaGl2ZW5nLnYxLkxpc3RQcm9q",
+            "ZWN0TWVtYmVyc1JlcXVlc3QaJS5oaXZlbmcudjEuTGlzdFByb2plY3RNZW1i",
+            "ZXJzUmVzcG9uc2VCYAoNY29tLmhpdmVuZy52MUIKQWRtaW5Qcm90b1ABogID",
+            "SFhYqgIJSGl2ZW5nLlYxygIJSGl2ZW5nXFYx4gIVSGl2ZW5nXFYxXEdQQk1l",
+            "dGFkYXRh6gIKSGl2ZW5nOjpWMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Hiveng.V1.ProjectRole), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -87,8 +102,14 @@ namespace Hiveng.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Hiveng.V1.SignUpResponse), global::Hiveng.V1.SignUpResponse.Parser, new[]{ "Admin", "Token" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Hiveng.V1.LoginRequest), global::Hiveng.V1.LoginRequest.Parser, new[]{ "Email", "Password" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Hiveng.V1.LoginResponse), global::Hiveng.V1.LoginResponse.Parser, new[]{ "Admin", "Token" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Hiveng.V1.CreateMcpSessionTokenRequest), global::Hiveng.V1.CreateMcpSessionTokenRequest.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Hiveng.V1.CreateMcpSessionTokenResponse), global::Hiveng.V1.CreateMcpSessionTokenResponse.Parser, new[]{ "Code", "ExpiresAt" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Hiveng.V1.ConsumeMcpSessionTokenRequest), global::Hiveng.V1.ConsumeMcpSessionTokenRequest.Parser, new[]{ "Code" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Hiveng.V1.ConsumeMcpSessionTokenResponse), global::Hiveng.V1.ConsumeMcpSessionTokenResponse.Parser, new[]{ "Admin", "Token" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Hiveng.V1.ChangePasswordRequest), global::Hiveng.V1.ChangePasswordRequest.Parser, new[]{ "CurrentPassword", "NewPassword" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Hiveng.V1.ChangePasswordResponse), global::Hiveng.V1.ChangePasswordResponse.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Hiveng.V1.ConsoleServiceLogoutRequest), global::Hiveng.V1.ConsoleServiceLogoutRequest.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Hiveng.V1.ConsoleServiceLogoutResponse), global::Hiveng.V1.ConsoleServiceLogoutResponse.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Hiveng.V1.AddProjectMemberRequest), global::Hiveng.V1.AddProjectMemberRequest.Parser, new[]{ "ProjectId", "Email", "Role" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Hiveng.V1.AddProjectMemberResponse), global::Hiveng.V1.AddProjectMemberResponse.Parser, new[]{ "Member" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Hiveng.V1.RemoveProjectMemberRequest), global::Hiveng.V1.RemoveProjectMemberRequest.Parser, new[]{ "ProjectId", "AdminId" }, null, null, null, null),
@@ -1797,6 +1818,859 @@ namespace Hiveng.V1 {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class CreateMcpSessionTokenRequest : pb::IMessage<CreateMcpSessionTokenRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<CreateMcpSessionTokenRequest> _parser = new pb::MessageParser<CreateMcpSessionTokenRequest>(() => new CreateMcpSessionTokenRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<CreateMcpSessionTokenRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Hiveng.V1.AdminReflection.Descriptor.MessageTypes[6]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CreateMcpSessionTokenRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CreateMcpSessionTokenRequest(CreateMcpSessionTokenRequest other) : this() {
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CreateMcpSessionTokenRequest Clone() {
+      return new CreateMcpSessionTokenRequest(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as CreateMcpSessionTokenRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(CreateMcpSessionTokenRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(CreateMcpSessionTokenRequest other) {
+      if (other == null) {
+        return;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class CreateMcpSessionTokenResponse : pb::IMessage<CreateMcpSessionTokenResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<CreateMcpSessionTokenResponse> _parser = new pb::MessageParser<CreateMcpSessionTokenResponse>(() => new CreateMcpSessionTokenResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<CreateMcpSessionTokenResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Hiveng.V1.AdminReflection.Descriptor.MessageTypes[7]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CreateMcpSessionTokenResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CreateMcpSessionTokenResponse(CreateMcpSessionTokenResponse other) : this() {
+      code_ = other.code_;
+      expiresAt_ = other.expiresAt_ != null ? other.expiresAt_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CreateMcpSessionTokenResponse Clone() {
+      return new CreateMcpSessionTokenResponse(this);
+    }
+
+    /// <summary>Field number for the "code" field.</summary>
+    public const int CodeFieldNumber = 1;
+    private string code_ = "";
+    /// <summary>
+    /// Codex MCP console_connect에 입력하는 1회용 코드.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Code {
+      get { return code_; }
+      set {
+        code_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "expires_at" field.</summary>
+    public const int ExpiresAtFieldNumber = 2;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp expiresAt_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp ExpiresAt {
+      get { return expiresAt_; }
+      set {
+        expiresAt_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as CreateMcpSessionTokenResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(CreateMcpSessionTokenResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Code != other.Code) return false;
+      if (!object.Equals(ExpiresAt, other.ExpiresAt)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Code.Length != 0) hash ^= Code.GetHashCode();
+      if (expiresAt_ != null) hash ^= ExpiresAt.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Code.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Code);
+      }
+      if (expiresAt_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(ExpiresAt);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Code.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Code);
+      }
+      if (expiresAt_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(ExpiresAt);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Code.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Code);
+      }
+      if (expiresAt_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ExpiresAt);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(CreateMcpSessionTokenResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Code.Length != 0) {
+        Code = other.Code;
+      }
+      if (other.expiresAt_ != null) {
+        if (expiresAt_ == null) {
+          ExpiresAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        ExpiresAt.MergeFrom(other.ExpiresAt);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Code = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (expiresAt_ == null) {
+              ExpiresAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(ExpiresAt);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Code = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (expiresAt_ == null) {
+              ExpiresAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(ExpiresAt);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class ConsumeMcpSessionTokenRequest : pb::IMessage<ConsumeMcpSessionTokenRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ConsumeMcpSessionTokenRequest> _parser = new pb::MessageParser<ConsumeMcpSessionTokenRequest>(() => new ConsumeMcpSessionTokenRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<ConsumeMcpSessionTokenRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Hiveng.V1.AdminReflection.Descriptor.MessageTypes[8]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ConsumeMcpSessionTokenRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ConsumeMcpSessionTokenRequest(ConsumeMcpSessionTokenRequest other) : this() {
+      code_ = other.code_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ConsumeMcpSessionTokenRequest Clone() {
+      return new ConsumeMcpSessionTokenRequest(this);
+    }
+
+    /// <summary>Field number for the "code" field.</summary>
+    public const int CodeFieldNumber = 1;
+    private string code_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Code {
+      get { return code_; }
+      set {
+        code_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as ConsumeMcpSessionTokenRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(ConsumeMcpSessionTokenRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Code != other.Code) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Code.Length != 0) hash ^= Code.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Code.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Code);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Code.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Code);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Code.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Code);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(ConsumeMcpSessionTokenRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Code.Length != 0) {
+        Code = other.Code;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Code = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Code = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class ConsumeMcpSessionTokenResponse : pb::IMessage<ConsumeMcpSessionTokenResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ConsumeMcpSessionTokenResponse> _parser = new pb::MessageParser<ConsumeMcpSessionTokenResponse>(() => new ConsumeMcpSessionTokenResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<ConsumeMcpSessionTokenResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Hiveng.V1.AdminReflection.Descriptor.MessageTypes[9]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ConsumeMcpSessionTokenResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ConsumeMcpSessionTokenResponse(ConsumeMcpSessionTokenResponse other) : this() {
+      admin_ = other.admin_ != null ? other.admin_.Clone() : null;
+      token_ = other.token_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ConsumeMcpSessionTokenResponse Clone() {
+      return new ConsumeMcpSessionTokenResponse(this);
+    }
+
+    /// <summary>Field number for the "admin" field.</summary>
+    public const int AdminFieldNumber = 1;
+    private global::Hiveng.V1.Admin admin_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Hiveng.V1.Admin Admin {
+      get { return admin_; }
+      set {
+        admin_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "token" field.</summary>
+    public const int TokenFieldNumber = 2;
+    private string token_ = "";
+    /// <summary>
+    /// MCP 세션 내부에서만 사용하는 콘솔 인증용 JWT.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Token {
+      get { return token_; }
+      set {
+        token_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as ConsumeMcpSessionTokenResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(ConsumeMcpSessionTokenResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Admin, other.Admin)) return false;
+      if (Token != other.Token) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (admin_ != null) hash ^= Admin.GetHashCode();
+      if (Token.Length != 0) hash ^= Token.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (admin_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Admin);
+      }
+      if (Token.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Token);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (admin_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Admin);
+      }
+      if (Token.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Token);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (admin_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Admin);
+      }
+      if (Token.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Token);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(ConsumeMcpSessionTokenResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.admin_ != null) {
+        if (admin_ == null) {
+          Admin = new global::Hiveng.V1.Admin();
+        }
+        Admin.MergeFrom(other.Admin);
+      }
+      if (other.Token.Length != 0) {
+        Token = other.Token;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (admin_ == null) {
+              Admin = new global::Hiveng.V1.Admin();
+            }
+            input.ReadMessage(Admin);
+            break;
+          }
+          case 18: {
+            Token = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (admin_ == null) {
+              Admin = new global::Hiveng.V1.Admin();
+            }
+            input.ReadMessage(Admin);
+            break;
+          }
+          case 18: {
+            Token = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ChangePasswordRequest : pb::IMessage<ChangePasswordRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1811,7 +2685,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AdminReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Hiveng.V1.AdminReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2046,7 +2920,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AdminReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Hiveng.V1.AdminReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2193,6 +3067,328 @@ namespace Hiveng.V1 {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class ConsoleServiceLogoutRequest : pb::IMessage<ConsoleServiceLogoutRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ConsoleServiceLogoutRequest> _parser = new pb::MessageParser<ConsoleServiceLogoutRequest>(() => new ConsoleServiceLogoutRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<ConsoleServiceLogoutRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Hiveng.V1.AdminReflection.Descriptor.MessageTypes[12]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ConsoleServiceLogoutRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ConsoleServiceLogoutRequest(ConsoleServiceLogoutRequest other) : this() {
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ConsoleServiceLogoutRequest Clone() {
+      return new ConsoleServiceLogoutRequest(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as ConsoleServiceLogoutRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(ConsoleServiceLogoutRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(ConsoleServiceLogoutRequest other) {
+      if (other == null) {
+        return;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class ConsoleServiceLogoutResponse : pb::IMessage<ConsoleServiceLogoutResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ConsoleServiceLogoutResponse> _parser = new pb::MessageParser<ConsoleServiceLogoutResponse>(() => new ConsoleServiceLogoutResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<ConsoleServiceLogoutResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Hiveng.V1.AdminReflection.Descriptor.MessageTypes[13]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ConsoleServiceLogoutResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ConsoleServiceLogoutResponse(ConsoleServiceLogoutResponse other) : this() {
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ConsoleServiceLogoutResponse Clone() {
+      return new ConsoleServiceLogoutResponse(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as ConsoleServiceLogoutResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(ConsoleServiceLogoutResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(ConsoleServiceLogoutResponse other) {
+      if (other == null) {
+        return;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AddProjectMemberRequest : pb::IMessage<AddProjectMemberRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2207,7 +3403,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AdminReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Hiveng.V1.AdminReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2479,7 +3675,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AdminReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Hiveng.V1.AdminReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2686,7 +3882,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AdminReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Hiveng.V1.AdminReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2921,7 +4117,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AdminReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Hiveng.V1.AdminReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3082,7 +4278,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AdminReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Hiveng.V1.AdminReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3354,7 +4550,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AdminReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Hiveng.V1.AdminReflection.Descriptor.MessageTypes[19]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3561,7 +4757,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AdminReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Hiveng.V1.AdminReflection.Descriptor.MessageTypes[20]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3759,7 +4955,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AdminReflection.Descriptor.MessageTypes[15]; }
+      get { return global::Hiveng.V1.AdminReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
