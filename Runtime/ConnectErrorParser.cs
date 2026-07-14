@@ -49,6 +49,11 @@ namespace HiveAxyl.Sdk
                 {
                     return HiveAxylException.Transport(message.Length == 0 ? "HTTP " + statusCode : message);
                 }
+                ErrorCode errorCode = RestErrorCode(envelope.code);
+                if (errorCode != ErrorCode.Unspecified)
+                {
+                    return new HiveAxylException(errorCode, message);
+                }
                 return new HiveAxylException(ErrorCode.Unspecified, message);
             }
             return MapDetail(detail, message);
@@ -57,6 +62,22 @@ namespace HiveAxyl.Sdk
         private static bool IsRetryableConnectCode(string code)
         {
             return code == "unavailable" || code == "deadline_exceeded";
+        }
+
+        private static ErrorCode RestErrorCode(string code)
+        {
+            if (string.IsNullOrEmpty(code) || !code.StartsWith("ERROR_CODE_", StringComparison.Ordinal))
+            {
+                return ErrorCode.Unspecified;
+            }
+            Google.Protobuf.Reflection.EnumDescriptor descriptor =
+                CommonReflection.Descriptor.EnumTypes[0];
+            Google.Protobuf.Reflection.EnumValueDescriptor value = descriptor.FindValueByName(code);
+            if (value == null)
+            {
+                return ErrorCode.Unspecified;
+            }
+            return (ErrorCode)value.Number;
         }
 
         private static ErrorDetail ErrorDetailOf(Envelope envelope)

@@ -55,6 +55,15 @@ namespace HiveAxyl.Sdk
             return LoginAsync(IdentityProvider.Google, idToken);
         }
 
+        public Task<Player> LoginWithAppleAsync(string identityToken)
+        {
+            if (string.IsNullOrEmpty(identityToken))
+            {
+                throw HiveAxylException.InvalidArgument("identityToken is required");
+            }
+            return LoginAsync(IdentityProvider.Apple, identityToken);
+        }
+
         public Task<Player> LoginAsGuestAsync(string deviceId)
         {
             if (string.IsNullOrEmpty(deviceId))
@@ -79,6 +88,19 @@ namespace HiveAxyl.Sdk
             CompleteFacebookDesktopLoginResponse response =
                 await FacebookDesktopSignIn.SignInAsync(activeClient, platform, port);
             return SaveLogin(response.Player, response.TokenPair);
+        }
+
+        public async Task<Player> LoginWithAppleDesktopAsync(string clientId, int port = 0)
+        {
+            ConnectClient activeClient = RequireClient();
+            TokenPair tokenPair = await AppleDesktopSignIn.SignInAsync(activeClient, clientId, port);
+            session.Save(tokenPair);
+            Player logged = await GetPlayerAsync();
+            if (logged == null)
+            {
+                throw HiveAxylException.Transport("Apple login response missing player");
+            }
+            return logged;
         }
 
         public async Task<Player> GetPlayerAsync()

@@ -83,8 +83,10 @@ Supported auth entry points:
 
 - `hive.Auth.LoginAsGuestAsync(deviceId)`
 - `hive.Auth.LoginWithGoogleAsync(idToken)`
+- `hive.Auth.LoginWithAppleAsync(identityToken)`
 - `hive.Auth.LoginWithGoogleDesktopAsync(clientId, clientSecret, port)`
 - `hive.Auth.LoginWithFacebookDesktopAsync(port)`
+- `hive.Auth.LoginWithAppleDesktopAsync(clientId, port)`
 - `hive.Auth.RestoreSessionAsync()`
 - `hive.Auth.LogoutAsync()`
 - `hive.Auth.CurrentPlayer()`
@@ -92,6 +94,10 @@ Supported auth entry points:
 Direct provider login accepts OAuth tokens obtained by your game through platform provider SDKs and sends them to the Hive Axyl server for validation.
 
 `LoginWithFacebookDesktopAsync()` is available for Standalone and Editor builds. It opens the system browser, receives the server callback through a `127.0.0.1` loopback listener, and completes login with a short-lived one-time code. Configure the Facebook App ID and App Secret only in the Hive Axyl console.
+
+`LoginWithAppleDesktopAsync()` is also available for Standalone and Editor builds. Pass the Apple Services ID registered in the Hive Axyl console. Register the HTTPS Apple Redirect URI shown in the console as the Services ID Return URL in Apple Developer. The `127.0.0.1` callback is internal to the SDK and is not registered with Apple.
+
+Android, iOS, and WebGL games obtain an Apple identity token through their platform bridge and pass it to `LoginWithAppleAsync()`.
 
 ## Payments
 

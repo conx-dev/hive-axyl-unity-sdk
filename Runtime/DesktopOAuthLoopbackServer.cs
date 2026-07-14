@@ -13,7 +13,7 @@ namespace HiveAxyl.Sdk
     internal sealed class DesktopOAuthLoopbackServer : IDisposable
     {
         private const int CallbackTimeoutMs = 120000;
-        private const int RequestReadFrames = 80;
+        private const int RequestReadTimeoutMs = 5000;
 
         private readonly TcpListener listener;
 
@@ -50,11 +50,20 @@ namespace HiveAxyl.Sdk
                 using (TcpClient client = listener.AcceptTcpClient())
                 {
                     string requestText = await ReadRequestAsync(client);
-                    Dictionary<string, string> parameters = ParseCallbackQuery(requestText);
-                    WriteCallbackResponse(client, parameters.ContainsKey("error"));
+                    Dictionary<string, string> parameters = ParseCallback(requestText);
+                    bool failed = HasCallbackError(parameters);
+                    WriteCallbackResponse(client, failed);
                     string error;
-                    if (parameters.TryGetValue("error", out error))
+                    if (failed)
                     {
+                        if (!parameters.TryGetValue("error", out error))
+                        {
+                            parameters.TryGetValue("error_code", out error);
+                        }
+                        if (string.IsNullOrEmpty(error))
+                        {
+                            error = "sign-in failed";
+                        }
                         string detail;
                         if (parameters.TryGetValue("error_message", out detail) && !string.IsNullOrEmpty(detail))
                         {
@@ -102,7 +111,8 @@ namespace HiveAxyl.Sdk
             NetworkStream stream = client.GetStream();
             StringBuilder builder = new StringBuilder();
             byte[] buffer = new byte[4096];
-            for (int index = 0; index < RequestReadFrames; index++)
+            Stopwatch timeout = Stopwatch.StartNew();
+            while (timeout.ElapsedMilliseconds < RequestReadTimeoutMs)
             {
                 while (stream.DataAvailable)
                 {
@@ -113,16 +123,55 @@ namespace HiveAxyl.Sdk
                     }
                     builder.Append(Encoding.UTF8.GetString(buffer, 0, read));
                 }
-                if (builder.ToString().Contains("\r\n\r\n"))
+                string requestText = builder.ToString();
+                if (IsRequestComplete(requestText))
                 {
-                    return builder.ToString();
+                    return requestText;
                 }
-                await Task.Yield();
+                await Task.Delay(10);
             }
             return builder.ToString();
         }
 
-        private static Dictionary<string, string> ParseCallbackQuery(string requestText)
+        private static bool IsRequestComplete(string requestText)
+        {
+            int headerEnd = requestText.IndexOf("\r\n\r\n", StringComparison.Ordinal);
+            if (headerEnd < 0)
+            {
+                return false;
+            }
+            int contentLength = ParseContentLength(requestText.Substring(0, headerEnd));
+            string body = requestText.Substring(headerEnd + 4);
+            return Encoding.UTF8.GetByteCount(body) >= contentLength;
+        }
+
+        private static int ParseContentLength(string headers)
+        {
+            string[] lines = headers.Split(new[] { "\r\n" }, StringSplitOptions.None);
+            for (int index = 1; index < lines.Length; index++)
+            {
+                string line = lines[index];
+                int colon = line.IndexOf(':');
+                if (colon < 0)
+                {
+                    continue;
+                }
+                string name = line.Substring(0, colon).Trim();
+                if (!name.Equals("Content-Length", StringComparison.OrdinalIgnoreCase))
+                {
+                    continue;
+                }
+                int value;
+                if (int.TryParse(line.Substring(colon + 1).Trim(), out value) && value > 0)
+                {
+                    return value;
+                }
+                return 0;
+            }
+            return 0;
+        }
+
+        internal static Dictionary<string, string> ParseCallback(string requestText)
         {
             Dictionary<string, string> parameters = new Dictionary<string, string>();
             int lineEnd = requestText.IndexOf("\r\n", StringComparison.Ordinal);
@@ -136,13 +185,29 @@ namespace HiveAxyl.Sdk
             string path = parts[1];
             int question = path.IndexOf('?');
             string callbackPath = question >= 0 ? path.Substring(0, question) : path;
-            if (callbackPath != "/callback" || question < 0)
+            if (callbackPath != "/callback")
             {
                 return parameters;
             }
 
-            string query = path.Substring(question + 1);
-            string[] pairs = query.Split('&');
+            if (question >= 0)
+            {
+                ParseFormEncoded(path.Substring(question + 1), parameters, true);
+            }
+            int headerEnd = requestText.IndexOf("\r\n\r\n", StringComparison.Ordinal);
+            if (headerEnd >= 0 && headerEnd + 4 < requestText.Length)
+            {
+                ParseFormEncoded(requestText.Substring(headerEnd + 4), parameters, false);
+            }
+            return parameters;
+        }
+
+        private static void ParseFormEncoded(
+            string encoded,
+            Dictionary<string, string> parameters,
+            bool overwrite)
+        {
+            string[] pairs = encoded.Split('&');
             for (int index = 0; index < pairs.Length; index++)
             {
                 string pair = pairs[index];
@@ -153,9 +218,22 @@ namespace HiveAxyl.Sdk
                 }
                 string key = Uri.UnescapeDataString(pair.Substring(0, equals));
                 string value = Uri.UnescapeDataString(pair.Substring(equals + 1).Replace("+", " "));
+                if (!overwrite && parameters.ContainsKey(key))
+                {
+                    continue;
+                }
                 parameters[key] = value;
             }
-            return parameters;
+        }
+
+        private static bool HasCallbackError(Dictionary<string, string> parameters)
+        {
+            if (parameters.ContainsKey("error"))
+            {
+                return true;
+            }
+            string status;
+            return parameters.TryGetValue("status", out status) && status == "error";
         }
 
         private static void WriteCallbackResponse(TcpClient client, bool failed)

@@ -60,6 +60,38 @@ namespace HiveAxyl.Sdk
             }
         }
 
+        internal async Task<string> PostJsonAsync(string path, string json)
+        {
+            string normalizedPath = path ?? "";
+            if (!normalizedPath.StartsWith("/", StringComparison.Ordinal))
+            {
+                normalizedPath = "/" + normalizedPath;
+            }
+            string url = baseUrl + normalizedPath;
+            byte[] body = System.Text.Encoding.UTF8.GetBytes(json ?? "{}");
+            using (UnityWebRequest webRequest = new UnityWebRequest(url, UnityWebRequest.kHttpVerbPOST))
+            {
+                webRequest.uploadHandler = new UploadHandlerRaw(body);
+                webRequest.downloadHandler = new DownloadHandlerBuffer();
+                webRequest.SetRequestHeader("Content-Type", "application/json");
+                webRequest.SetRequestHeader("Accept", "application/json");
+                ApplyApiKeyHeaders(webRequest);
+
+                await SendAsync(webRequest);
+
+                byte[] data = webRequest.downloadHandler.data ?? new byte[0];
+                if (webRequest.responseCode != 200)
+                {
+                    throw ConnectErrorParser.Parse(webRequest.responseCode, data);
+                }
+                if (webRequest.result == UnityWebRequest.Result.ConnectionError)
+                {
+                    throw HiveAxylException.Transport(webRequest.error);
+                }
+                return webRequest.downloadHandler.text ?? "";
+            }
+        }
+
         private async Task<TResponse> SendOnceAsync<TRequest, TResponse>(
             string service,
             string method,
@@ -110,6 +142,16 @@ namespace HiveAxyl.Sdk
 
         private void ApplyAuthHeaders(UnityWebRequest request, string method)
         {
+            ApplyApiKeyHeaders(request);
+            string accessToken = session.AccessToken;
+            if (!string.IsNullOrEmpty(accessToken) && UsesPlayerToken(method))
+            {
+                request.SetRequestHeader("X-Player-Token", accessToken);
+            }
+        }
+
+        private void ApplyApiKeyHeaders(UnityWebRequest request)
+        {
             if (string.IsNullOrEmpty(apiKey))
             {
                 return;
@@ -119,11 +161,6 @@ namespace HiveAxyl.Sdk
             if (!string.IsNullOrEmpty(language))
             {
                 request.SetRequestHeader("X-Hive-Ng-Language", language);
-            }
-            string accessToken = session.AccessToken;
-            if (!string.IsNullOrEmpty(accessToken) && UsesPlayerToken(method))
-            {
-                request.SetRequestHeader("X-Player-Token", accessToken);
             }
         }
 

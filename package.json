@@ -1,6 +1,6 @@
 {
   "name": "com.hiveaxyl.sdk",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "displayName": "Hive Axyl SDK",
   "description": "Unity SDK for Hive Axyl authentication, notices, mailbox, payments, and platform services.",
   "unity": "2021.3",
