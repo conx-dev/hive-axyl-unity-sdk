@@ -81,7 +81,7 @@ var providers = await hive.Auth.GetLoginProvidersAsync();
 
 Supported auth entry points:
 
-- `hive.Auth.LoginAsGuestAsync(deviceId)`
+- `hive.Auth.LoginAsGuestAsync()`
 - `hive.Auth.LoginWithGoogleAsync(idToken)`
 - `hive.Auth.LoginWithAppleAsync(identityToken)`
 - `hive.Auth.LoginWithGoogleDesktopAsync(clientId, clientSecret, port)`
@@ -98,6 +98,8 @@ Direct provider login accepts OAuth tokens obtained by your game through platfor
 `LoginWithAppleDesktopAsync()` is also available for Standalone and Editor builds. Pass the Apple Services ID registered in the Hive Axyl console. Register the HTTPS Apple Redirect URI shown in the console as the Services ID Return URL in Apple Developer. The `127.0.0.1` callback is internal to the SDK and is not registered with Apple.
 
 Android, iOS, and WebGL games obtain an Apple identity token through their platform bridge and pass it to `LoginWithAppleAsync()`.
+
+On the first guest login, the SDK creates a cryptographically random installation credential in `PlayerPrefs`. It is stored separately from session tokens, remains after `LogoutAsync()`, and is unaffected by `PersistSession`. Identity-provider login neither creates nor uses it. Guest login fails before sending a request when durable storage is unavailable. Clearing player data can create a new guest account, and the previous guest account may not be recoverable.
 
 ## Payments
 
@@ -124,7 +126,7 @@ Domain errors are surfaced as `HiveAxylException` subclasses. Branch on exceptio
 ```csharp
 try
 {
-    Player player = await hive.Auth.LoginAsGuestAsync(deviceId);
+    Player player = await hive.Auth.LoginAsGuestAsync();
 }
 catch (HiveAxylBannedException banned)
 {

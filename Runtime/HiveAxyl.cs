@@ -20,7 +20,9 @@ namespace HiveAxyl.Sdk
         {
             this.config = ResolvedConfig.From(config);
             session = new Session(ResolveStorage(config));
-            Auth = new AuthApi(session, this.config.Platform);
+            GuestInstallation guestInstallation = new GuestInstallation(
+                new PlayerPrefsGuestInstallationStorage());
+            Auth = new AuthApi(session, this.config.Platform, guestInstallation);
             Notice = new NoticeApi();
             Mailbox = new MailboxApi();
             Payment = new PaymentApi();

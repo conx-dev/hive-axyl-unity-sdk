@@ -8,16 +8,21 @@ namespace HiveAxyl.Sdk
     {
         private readonly Session session;
         private readonly ClientPlatform platform;
+        private readonly GuestInstallation guestInstallation;
         private readonly object gate = new object();
         private ConnectClient client;
         private Player player;
 
         public event Action<HiveAxylBannedException> Banned;
 
-        internal AuthApi(Session session, ClientPlatform platform)
+        internal AuthApi(
+            Session session,
+            ClientPlatform platform,
+            GuestInstallation guestInstallation)
         {
             this.session = session;
             this.platform = platform;
+            this.guestInstallation = guestInstallation;
         }
 
         internal void Bind(ConnectClient client)
@@ -64,13 +69,10 @@ namespace HiveAxyl.Sdk
             return LoginAsync(IdentityProvider.Apple, identityToken);
         }
 
-        public Task<Player> LoginAsGuestAsync(string deviceId)
+        public Task<Player> LoginAsGuestAsync()
         {
-            if (string.IsNullOrEmpty(deviceId))
-            {
-                throw HiveAxylException.InvalidArgument("deviceId is required");
-            }
-            return LoginAsync(IdentityProvider.Guest, deviceId);
+            string credential = guestInstallation.GetOrCreateCredential();
+            return LoginAsync(IdentityProvider.Guest, credential);
         }
 
         public async Task<Player> LoginWithGoogleDesktopAsync(

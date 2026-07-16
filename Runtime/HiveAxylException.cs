@@ -109,6 +109,8 @@ namespace HiveAxyl.Sdk
                     return "PERMISSION_DENIED";
                 case ErrorCode.Unauthenticated:
                     return "UNAUTHENTICATED";
+                case ErrorCode.RateLimited:
+                    return "RATE_LIMITED";
                 case ErrorCode.MaintenanceInProgress:
                     return "MAINTENANCE_IN_PROGRESS";
                 case ErrorCode.GeoBlocked:
