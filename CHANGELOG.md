@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.0
+
+- Changed `LoginAsGuestAsync(deviceId)` to `LoginAsGuestAsync()` and use an SDK-generated installation credential.
+- Persisted the guest installation credential across logout without affecting identity-provider login.
+- Refreshed generated maintenance API protobuf types.
+
 ## 0.3.0
 
 - Added direct Apple identity-token login for platform bridges.
