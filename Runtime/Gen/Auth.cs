@@ -67,89 +67,104 @@ namespace Hiveng.V1 {
             "b2RlIoYBCiRDb21wbGV0ZUZhY2Vib29rRGVza3RvcExvZ2luUmVzcG9uc2US",
             "KQoGcGxheWVyGAEgASgLMhEuaGl2ZW5nLnYxLlBsYXllclIGcGxheWVyEjMK",
             "CnRva2VuX3BhaXIYAiABKAsyFC5oaXZlbmcudjEuVG9rZW5QYWlyUgl0b2tl",
-            "blBhaXIiOgoTUmVmcmVzaFRva2VuUmVxdWVzdBIjCg1yZWZyZXNoX3Rva2Vu",
-            "GAEgASgJUgxyZWZyZXNoVG9rZW4iSwoUUmVmcmVzaFRva2VuUmVzcG9uc2US",
-            "MwoKdG9rZW5fcGFpchgBIAEoCzIULmhpdmVuZy52MS5Ub2tlblBhaXJSCXRv",
-            "a2VuUGFpciIPCg1Mb2dvdXRSZXF1ZXN0IhAKDkxvZ291dFJlc3BvbnNlIhIK",
-            "EEdldFBsYXllclJlcXVlc3QiPgoRR2V0UGxheWVyUmVzcG9uc2USKQoGcGxh",
-            "eWVyGAEgASgLMhEuaGl2ZW5nLnYxLlBsYXllclIGcGxheWVyIjMKFVVwZGF0",
-            "ZU5pY2tuYW1lUmVxdWVzdBIaCghuaWNrbmFtZRgBIAEoCVIIbmlja25hbWUi",
-            "QwoWVXBkYXRlTmlja25hbWVSZXNwb25zZRIpCgZwbGF5ZXIYASABKAsyES5o",
-            "aXZlbmcudjEuUGxheWVyUgZwbGF5ZXIizwEKGFNldExvZ2luUHJvdmlkZXJz",
-            "UmVxdWVzdBIdCgpwcm9qZWN0X2lkGAEgASgJUglwcm9qZWN0SWQSGAoHY291",
-            "bnRyeRgCIAEoCVIHY291bnRyeRI5Cglwcm92aWRlcnMYAyADKA4yGy5oaXZl",
-            "bmcudjEuSWRlbnRpdHlQcm92aWRlclIJcHJvdmlkZXJzEj8KC2Vudmlyb25t",
-            "ZW50GAQgASgOMh0uaGl2ZW5nLnYxLlJ1bnRpbWVFbnZpcm9ubWVudFILZW52",
-            "aXJvbm1lbnQiGwoZU2V0TG9naW5Qcm92aWRlcnNSZXNwb25zZSKBAQofR2V0",
-            "TG9naW5Qcm92aWRlck1hcHBpbmdzUmVxdWVzdBIdCgpwcm9qZWN0X2lkGAEg",
-            "ASgJUglwcm9qZWN0SWQSPwoLZW52aXJvbm1lbnQYAiABKA4yHS5oaXZlbmcu",
-            "djEuUnVudGltZUVudmlyb25tZW50UgtlbnZpcm9ubWVudCJhCiBHZXRMb2dp",
-            "blByb3ZpZGVyTWFwcGluZ3NSZXNwb25zZRI9CghtYXBwaW5ncxgBIAMoCzIh",
-            "LmhpdmVuZy52MS5Db3VudHJ5UHJvdmlkZXJNYXBwaW5nUghtYXBwaW5ncyKd",
-            "AQohRGVsZXRlTG9naW5Qcm92aWRlck1hcHBpbmdSZXF1ZXN0Eh0KCnByb2pl",
-            "Y3RfaWQYASABKAlSCXByb2plY3RJZBIYCgdjb3VudHJ5GAIgASgJUgdjb3Vu",
-            "dHJ5Ej8KC2Vudmlyb25tZW50GAMgASgOMh0uaGl2ZW5nLnYxLlJ1bnRpbWVF",
-            "bnZpcm9ubWVudFILZW52aXJvbm1lbnQiJAoiRGVsZXRlTG9naW5Qcm92aWRl",
-            "ck1hcHBpbmdSZXNwb25zZSLsAQoUU2VhcmNoUGxheWVyc1JlcXVlc3QSHQoK",
-            "cHJvamVjdF9pZBgBIAEoCVIJcHJvamVjdElkEhQKBXF1ZXJ5GAIgASgJUgVx",
-            "dWVyeRIqCgRwYWdlGAMgASgLMhYuaGl2ZW5nLnYxLlBhZ2VSZXF1ZXN0UgRw",
-            "YWdlEjIKBWZpZWxkGAQgASgOMhwuaGl2ZW5nLnYxLlBsYXllclNlYXJjaEZp",
-            "ZWxkUgVmaWVsZBI/CgtlbnZpcm9ubWVudBgFIAEoDjIdLmhpdmVuZy52MS5S",
-            "dW50aW1lRW52aXJvbm1lbnRSC2Vudmlyb25tZW50InEKFVNlYXJjaFBsYXll",
-            "cnNSZXNwb25zZRIrCgdwbGF5ZXJzGAEgAygLMhEuaGl2ZW5nLnYxLlBsYXll",
-            "clIHcGxheWVycxIrCgRwYWdlGAIgASgLMhcuaGl2ZW5nLnYxLlBhZ2VSZXNw",
-            "b25zZVIEcGFnZSKVAQoWR2V0UGxheWVyRGV0YWlsUmVxdWVzdBIdCgpwcm9q",
-            "ZWN0X2lkGAEgASgJUglwcm9qZWN0SWQSGwoJcGxheWVyX2lkGAIgASgJUghw",
-            "bGF5ZXJJZBI/CgtlbnZpcm9ubWVudBgDIAEoDjIdLmhpdmVuZy52MS5SdW50",
-            "aW1lRW52aXJvbm1lbnRSC2Vudmlyb25tZW50IkQKF0dldFBsYXllckRldGFp",
-            "bFJlc3BvbnNlEikKBnBsYXllchgBIAEoCzIRLmhpdmVuZy52MS5QbGF5ZXJS",
-            "BnBsYXllcirGAgoQSWRlbnRpdHlQcm92aWRlchIhCh1JREVOVElUWV9QUk9W",
-            "SURFUl9VTlNQRUNJRklFRBAAEhsKF0lERU5USVRZX1BST1ZJREVSX0tBS0FP",
-            "EAESGwoXSURFTlRJVFlfUFJPVklERVJfTkFWRVIQAhIcChhJREVOVElUWV9Q",
-            "Uk9WSURFUl9HT09HTEUQAxIeChpJREVOVElUWV9QUk9WSURFUl9GQUNFQk9P",
-            "SxAEEhsKF0lERU5USVRZX1BST1ZJREVSX0FQUExFEAUSGgoWSURFTlRJVFlf",
-            "UFJPVklERVJfTElORRAGEiAKHElERU5USVRZX1BST1ZJREVSX1RSVUVDQUxM",
-            "RVIQBxIfChtJREVOVElUWV9QUk9WSURFUl9QSE9ORV9PVFAQCBIbChdJREVO",
-            "VElUWV9QUk9WSURFUl9HVUVTVBAJKp0BCg5DbGllbnRQbGF0Zm9ybRIfChtD",
-            "TElFTlRfUExBVEZPUk1fVU5TUEVDSUZJRUQQABIXChNDTElFTlRfUExBVEZP",
-            "Uk1fV0VCEAESGwoXQ0xJRU5UX1BMQVRGT1JNX0FORFJPSUQQAhIXChNDTElF",
-            "TlRfUExBVEZPUk1fSU9TEAMSGwoXQ0xJRU5UX1BMQVRGT1JNX0RFU0tUT1AQ",
-            "BCqcAQoRUGxheWVyU2VhcmNoRmllbGQSIwofUExBWUVSX1NFQVJDSF9GSUVM",
-            "RF9VTlNQRUNJRklFRBAAEiEKHVBMQVlFUl9TRUFSQ0hfRklFTERfUExBWUVS",
-            "X0lEEAESIAocUExBWUVSX1NFQVJDSF9GSUVMRF9OSUNLTkFNRRACEh0KGVBM",
-            "QVlFUl9TRUFSQ0hfRklFTERfRU1BSUwQAzL1BQoLQXV0aFNlcnZpY2USXgoR",
-            "R2V0TG9naW5Qcm92aWRlcnMSIy5oaXZlbmcudjEuR2V0TG9naW5Qcm92aWRl",
-            "cnNSZXF1ZXN0GiQuaGl2ZW5nLnYxLkdldExvZ2luUHJvdmlkZXJzUmVzcG9u",
-            "c2USXgoRTG9naW5XaXRoUHJvdmlkZXISIy5oaXZlbmcudjEuTG9naW5XaXRo",
-            "UHJvdmlkZXJSZXF1ZXN0GiQuaGl2ZW5nLnYxLkxvZ2luV2l0aFByb3ZpZGVy",
-            "UmVzcG9uc2USdgoZU3RhcnRGYWNlYm9va0Rlc2t0b3BMb2dpbhIrLmhpdmVu",
-            "Zy52MS5TdGFydEZhY2Vib29rRGVza3RvcExvZ2luUmVxdWVzdBosLmhpdmVu",
-            "Zy52MS5TdGFydEZhY2Vib29rRGVza3RvcExvZ2luUmVzcG9uc2USfwocQ29t",
-            "cGxldGVGYWNlYm9va0Rlc2t0b3BMb2dpbhIuLmhpdmVuZy52MS5Db21wbGV0",
-            "ZUZhY2Vib29rRGVza3RvcExvZ2luUmVxdWVzdBovLmhpdmVuZy52MS5Db21w",
-            "bGV0ZUZhY2Vib29rRGVza3RvcExvZ2luUmVzcG9uc2USTwoMUmVmcmVzaFRv",
-            "a2VuEh4uaGl2ZW5nLnYxLlJlZnJlc2hUb2tlblJlcXVlc3QaHy5oaXZlbmcu",
-            "djEuUmVmcmVzaFRva2VuUmVzcG9uc2USPQoGTG9nb3V0EhguaGl2ZW5nLnYx",
-            "LkxvZ291dFJlcXVlc3QaGS5oaXZlbmcudjEuTG9nb3V0UmVzcG9uc2USRgoJ",
-            "R2V0UGxheWVyEhsuaGl2ZW5nLnYxLkdldFBsYXllclJlcXVlc3QaHC5oaXZl",
-            "bmcudjEuR2V0UGxheWVyUmVzcG9uc2USVQoOVXBkYXRlTmlja25hbWUSIC5o",
-            "aXZlbmcudjEuVXBkYXRlTmlja25hbWVSZXF1ZXN0GiEuaGl2ZW5nLnYxLlVw",
-            "ZGF0ZU5pY2tuYW1lUmVzcG9uc2Uy7QIKG0NvbnNvbGVMb2dpblByb3ZpZGVy",
-            "U2VydmljZRJeChFTZXRMb2dpblByb3ZpZGVycxIjLmhpdmVuZy52MS5TZXRM",
-            "b2dpblByb3ZpZGVyc1JlcXVlc3QaJC5oaXZlbmcudjEuU2V0TG9naW5Qcm92",
-            "aWRlcnNSZXNwb25zZRJzChhHZXRMb2dpblByb3ZpZGVyTWFwcGluZ3MSKi5o",
-            "aXZlbmcudjEuR2V0TG9naW5Qcm92aWRlck1hcHBpbmdzUmVxdWVzdBorLmhp",
-            "dmVuZy52MS5HZXRMb2dpblByb3ZpZGVyTWFwcGluZ3NSZXNwb25zZRJ5ChpE",
-            "ZWxldGVMb2dpblByb3ZpZGVyTWFwcGluZxIsLmhpdmVuZy52MS5EZWxldGVM",
-            "b2dpblByb3ZpZGVyTWFwcGluZ1JlcXVlc3QaLS5oaXZlbmcudjEuRGVsZXRl",
-            "TG9naW5Qcm92aWRlck1hcHBpbmdSZXNwb25zZTLEAQoUQ29uc29sZVBsYXll",
-            "clNlcnZpY2USUgoNU2VhcmNoUGxheWVycxIfLmhpdmVuZy52MS5TZWFyY2hQ",
-            "bGF5ZXJzUmVxdWVzdBogLmhpdmVuZy52MS5TZWFyY2hQbGF5ZXJzUmVzcG9u",
-            "c2USWAoPR2V0UGxheWVyRGV0YWlsEiEuaGl2ZW5nLnYxLkdldFBsYXllckRl",
-            "dGFpbFJlcXVlc3QaIi5oaXZlbmcudjEuR2V0UGxheWVyRGV0YWlsUmVzcG9u",
-            "c2VCXwoNY29tLmhpdmVuZy52MUIJQXV0aFByb3RvUAGiAgNIWFiqAglIaXZl",
-            "bmcuVjHKAglIaXZlbmdcVjHiAhVIaXZlbmdcVjFcR1BCTWV0YWRhdGHqAgpI",
-            "aXZlbmc6OlYxYgZwcm90bzM="));
+            "blBhaXIisgEKFlN0YXJ0QXBwbGVMb2dpblJlcXVlc3QSGwoJY2xpZW50X2lk",
+            "GAEgASgJUghjbGllbnRJZBIdCgpyZXR1cm5fdXJsGAIgASgJUglyZXR1cm5V",
+            "cmwSNQoIcGxhdGZvcm0YAyABKA4yGS5oaXZlbmcudjEuQ2xpZW50UGxhdGZv",
+            "cm1SCHBsYXRmb3JtEiUKDmNvZGVfY2hhbGxlbmdlGAQgASgJUg1jb2RlQ2hh",
+            "bGxlbmdlIkYKF1N0YXJ0QXBwbGVMb2dpblJlc3BvbnNlEisKEWF1dGhvcml6",
+            "YXRpb25fdXJsGAEgASgJUhBhdXRob3JpemF0aW9uVXJsIm8KGUNvbXBsZXRl",
+            "QXBwbGVMb2dpblJlcXVlc3QSLQoSYXV0aG9yaXphdGlvbl9jb2RlGAEgASgJ",
+            "UhFhdXRob3JpemF0aW9uQ29kZRIjCg1jb2RlX3ZlcmlmaWVyGAIgASgJUgxj",
+            "b2RlVmVyaWZpZXIifAoaQ29tcGxldGVBcHBsZUxvZ2luUmVzcG9uc2USKQoG",
+            "cGxheWVyGAEgASgLMhEuaGl2ZW5nLnYxLlBsYXllclIGcGxheWVyEjMKCnRv",
+            "a2VuX3BhaXIYAiABKAsyFC5oaXZlbmcudjEuVG9rZW5QYWlyUgl0b2tlblBh",
+            "aXIiOgoTUmVmcmVzaFRva2VuUmVxdWVzdBIjCg1yZWZyZXNoX3Rva2VuGAEg",
+            "ASgJUgxyZWZyZXNoVG9rZW4iSwoUUmVmcmVzaFRva2VuUmVzcG9uc2USMwoK",
+            "dG9rZW5fcGFpchgBIAEoCzIULmhpdmVuZy52MS5Ub2tlblBhaXJSCXRva2Vu",
+            "UGFpciIPCg1Mb2dvdXRSZXF1ZXN0IhAKDkxvZ291dFJlc3BvbnNlIhIKEEdl",
+            "dFBsYXllclJlcXVlc3QiPgoRR2V0UGxheWVyUmVzcG9uc2USKQoGcGxheWVy",
+            "GAEgASgLMhEuaGl2ZW5nLnYxLlBsYXllclIGcGxheWVyIjMKFVVwZGF0ZU5p",
+            "Y2tuYW1lUmVxdWVzdBIaCghuaWNrbmFtZRgBIAEoCVIIbmlja25hbWUiQwoW",
+            "VXBkYXRlTmlja25hbWVSZXNwb25zZRIpCgZwbGF5ZXIYASABKAsyES5oaXZl",
+            "bmcudjEuUGxheWVyUgZwbGF5ZXIizwEKGFNldExvZ2luUHJvdmlkZXJzUmVx",
+            "dWVzdBIdCgpwcm9qZWN0X2lkGAEgASgJUglwcm9qZWN0SWQSGAoHY291bnRy",
+            "eRgCIAEoCVIHY291bnRyeRI5Cglwcm92aWRlcnMYAyADKA4yGy5oaXZlbmcu",
+            "djEuSWRlbnRpdHlQcm92aWRlclIJcHJvdmlkZXJzEj8KC2Vudmlyb25tZW50",
+            "GAQgASgOMh0uaGl2ZW5nLnYxLlJ1bnRpbWVFbnZpcm9ubWVudFILZW52aXJv",
+            "bm1lbnQiGwoZU2V0TG9naW5Qcm92aWRlcnNSZXNwb25zZSKBAQofR2V0TG9n",
+            "aW5Qcm92aWRlck1hcHBpbmdzUmVxdWVzdBIdCgpwcm9qZWN0X2lkGAEgASgJ",
+            "Uglwcm9qZWN0SWQSPwoLZW52aXJvbm1lbnQYAiABKA4yHS5oaXZlbmcudjEu",
+            "UnVudGltZUVudmlyb25tZW50UgtlbnZpcm9ubWVudCJhCiBHZXRMb2dpblBy",
+            "b3ZpZGVyTWFwcGluZ3NSZXNwb25zZRI9CghtYXBwaW5ncxgBIAMoCzIhLmhp",
+            "dmVuZy52MS5Db3VudHJ5UHJvdmlkZXJNYXBwaW5nUghtYXBwaW5ncyKdAQoh",
+            "RGVsZXRlTG9naW5Qcm92aWRlck1hcHBpbmdSZXF1ZXN0Eh0KCnByb2plY3Rf",
+            "aWQYASABKAlSCXByb2plY3RJZBIYCgdjb3VudHJ5GAIgASgJUgdjb3VudHJ5",
+            "Ej8KC2Vudmlyb25tZW50GAMgASgOMh0uaGl2ZW5nLnYxLlJ1bnRpbWVFbnZp",
+            "cm9ubWVudFILZW52aXJvbm1lbnQiJAoiRGVsZXRlTG9naW5Qcm92aWRlck1h",
+            "cHBpbmdSZXNwb25zZSLsAQoUU2VhcmNoUGxheWVyc1JlcXVlc3QSHQoKcHJv",
+            "amVjdF9pZBgBIAEoCVIJcHJvamVjdElkEhQKBXF1ZXJ5GAIgASgJUgVxdWVy",
+            "eRIqCgRwYWdlGAMgASgLMhYuaGl2ZW5nLnYxLlBhZ2VSZXF1ZXN0UgRwYWdl",
+            "EjIKBWZpZWxkGAQgASgOMhwuaGl2ZW5nLnYxLlBsYXllclNlYXJjaEZpZWxk",
+            "UgVmaWVsZBI/CgtlbnZpcm9ubWVudBgFIAEoDjIdLmhpdmVuZy52MS5SdW50",
+            "aW1lRW52aXJvbm1lbnRSC2Vudmlyb25tZW50InEKFVNlYXJjaFBsYXllcnNS",
+            "ZXNwb25zZRIrCgdwbGF5ZXJzGAEgAygLMhEuaGl2ZW5nLnYxLlBsYXllclIH",
+            "cGxheWVycxIrCgRwYWdlGAIgASgLMhcuaGl2ZW5nLnYxLlBhZ2VSZXNwb25z",
+            "ZVIEcGFnZSKVAQoWR2V0UGxheWVyRGV0YWlsUmVxdWVzdBIdCgpwcm9qZWN0",
+            "X2lkGAEgASgJUglwcm9qZWN0SWQSGwoJcGxheWVyX2lkGAIgASgJUghwbGF5",
+            "ZXJJZBI/CgtlbnZpcm9ubWVudBgDIAEoDjIdLmhpdmVuZy52MS5SdW50aW1l",
+            "RW52aXJvbm1lbnRSC2Vudmlyb25tZW50IkQKF0dldFBsYXllckRldGFpbFJl",
+            "c3BvbnNlEikKBnBsYXllchgBIAEoCzIRLmhpdmVuZy52MS5QbGF5ZXJSBnBs",
+            "YXllcirGAgoQSWRlbnRpdHlQcm92aWRlchIhCh1JREVOVElUWV9QUk9WSURF",
+            "Ul9VTlNQRUNJRklFRBAAEhsKF0lERU5USVRZX1BST1ZJREVSX0tBS0FPEAES",
+            "GwoXSURFTlRJVFlfUFJPVklERVJfTkFWRVIQAhIcChhJREVOVElUWV9QUk9W",
+            "SURFUl9HT09HTEUQAxIeChpJREVOVElUWV9QUk9WSURFUl9GQUNFQk9PSxAE",
+            "EhsKF0lERU5USVRZX1BST1ZJREVSX0FQUExFEAUSGgoWSURFTlRJVFlfUFJP",
+            "VklERVJfTElORRAGEiAKHElERU5USVRZX1BST1ZJREVSX1RSVUVDQUxMRVIQ",
+            "BxIfChtJREVOVElUWV9QUk9WSURFUl9QSE9ORV9PVFAQCBIbChdJREVOVElU",
+            "WV9QUk9WSURFUl9HVUVTVBAJKp0BCg5DbGllbnRQbGF0Zm9ybRIfChtDTElF",
+            "TlRfUExBVEZPUk1fVU5TUEVDSUZJRUQQABIXChNDTElFTlRfUExBVEZPUk1f",
+            "V0VCEAESGwoXQ0xJRU5UX1BMQVRGT1JNX0FORFJPSUQQAhIXChNDTElFTlRf",
+            "UExBVEZPUk1fSU9TEAMSGwoXQ0xJRU5UX1BMQVRGT1JNX0RFU0tUT1AQBCqc",
+            "AQoRUGxheWVyU2VhcmNoRmllbGQSIwofUExBWUVSX1NFQVJDSF9GSUVMRF9V",
+            "TlNQRUNJRklFRBAAEiEKHVBMQVlFUl9TRUFSQ0hfRklFTERfUExBWUVSX0lE",
+            "EAESIAocUExBWUVSX1NFQVJDSF9GSUVMRF9OSUNLTkFNRRACEh0KGVBMQVlF",
+            "Ul9TRUFSQ0hfRklFTERfRU1BSUwQAzKyBwoLQXV0aFNlcnZpY2USXgoRR2V0",
+            "TG9naW5Qcm92aWRlcnMSIy5oaXZlbmcudjEuR2V0TG9naW5Qcm92aWRlcnNS",
+            "ZXF1ZXN0GiQuaGl2ZW5nLnYxLkdldExvZ2luUHJvdmlkZXJzUmVzcG9uc2US",
+            "XgoRTG9naW5XaXRoUHJvdmlkZXISIy5oaXZlbmcudjEuTG9naW5XaXRoUHJv",
+            "dmlkZXJSZXF1ZXN0GiQuaGl2ZW5nLnYxLkxvZ2luV2l0aFByb3ZpZGVyUmVz",
+            "cG9uc2USdgoZU3RhcnRGYWNlYm9va0Rlc2t0b3BMb2dpbhIrLmhpdmVuZy52",
+            "MS5TdGFydEZhY2Vib29rRGVza3RvcExvZ2luUmVxdWVzdBosLmhpdmVuZy52",
+            "MS5TdGFydEZhY2Vib29rRGVza3RvcExvZ2luUmVzcG9uc2USfwocQ29tcGxl",
+            "dGVGYWNlYm9va0Rlc2t0b3BMb2dpbhIuLmhpdmVuZy52MS5Db21wbGV0ZUZh",
+            "Y2Vib29rRGVza3RvcExvZ2luUmVxdWVzdBovLmhpdmVuZy52MS5Db21wbGV0",
+            "ZUZhY2Vib29rRGVza3RvcExvZ2luUmVzcG9uc2USWAoPU3RhcnRBcHBsZUxv",
+            "Z2luEiEuaGl2ZW5nLnYxLlN0YXJ0QXBwbGVMb2dpblJlcXVlc3QaIi5oaXZl",
+            "bmcudjEuU3RhcnRBcHBsZUxvZ2luUmVzcG9uc2USYQoSQ29tcGxldGVBcHBs",
+            "ZUxvZ2luEiQuaGl2ZW5nLnYxLkNvbXBsZXRlQXBwbGVMb2dpblJlcXVlc3Qa",
+            "JS5oaXZlbmcudjEuQ29tcGxldGVBcHBsZUxvZ2luUmVzcG9uc2USTwoMUmVm",
+            "cmVzaFRva2VuEh4uaGl2ZW5nLnYxLlJlZnJlc2hUb2tlblJlcXVlc3QaHy5o",
+            "aXZlbmcudjEuUmVmcmVzaFRva2VuUmVzcG9uc2USPQoGTG9nb3V0EhguaGl2",
+            "ZW5nLnYxLkxvZ291dFJlcXVlc3QaGS5oaXZlbmcudjEuTG9nb3V0UmVzcG9u",
+            "c2USRgoJR2V0UGxheWVyEhsuaGl2ZW5nLnYxLkdldFBsYXllclJlcXVlc3Qa",
+            "HC5oaXZlbmcudjEuR2V0UGxheWVyUmVzcG9uc2USVQoOVXBkYXRlTmlja25h",
+            "bWUSIC5oaXZlbmcudjEuVXBkYXRlTmlja25hbWVSZXF1ZXN0GiEuaGl2ZW5n",
+            "LnYxLlVwZGF0ZU5pY2tuYW1lUmVzcG9uc2Uy7QIKG0NvbnNvbGVMb2dpblBy",
+            "b3ZpZGVyU2VydmljZRJeChFTZXRMb2dpblByb3ZpZGVycxIjLmhpdmVuZy52",
+            "MS5TZXRMb2dpblByb3ZpZGVyc1JlcXVlc3QaJC5oaXZlbmcudjEuU2V0TG9n",
+            "aW5Qcm92aWRlcnNSZXNwb25zZRJzChhHZXRMb2dpblByb3ZpZGVyTWFwcGlu",
+            "Z3MSKi5oaXZlbmcudjEuR2V0TG9naW5Qcm92aWRlck1hcHBpbmdzUmVxdWVz",
+            "dBorLmhpdmVuZy52MS5HZXRMb2dpblByb3ZpZGVyTWFwcGluZ3NSZXNwb25z",
+            "ZRJ5ChpEZWxldGVMb2dpblByb3ZpZGVyTWFwcGluZxIsLmhpdmVuZy52MS5E",
+            "ZWxldGVMb2dpblByb3ZpZGVyTWFwcGluZ1JlcXVlc3QaLS5oaXZlbmcudjEu",
+            "RGVsZXRlTG9naW5Qcm92aWRlck1hcHBpbmdSZXNwb25zZTLEAQoUQ29uc29s",
+            "ZVBsYXllclNlcnZpY2USUgoNU2VhcmNoUGxheWVycxIfLmhpdmVuZy52MS5T",
+            "ZWFyY2hQbGF5ZXJzUmVxdWVzdBogLmhpdmVuZy52MS5TZWFyY2hQbGF5ZXJz",
+            "UmVzcG9uc2USWAoPR2V0UGxheWVyRGV0YWlsEiEuaGl2ZW5nLnYxLkdldFBs",
+            "YXllckRldGFpbFJlcXVlc3QaIi5oaXZlbmcudjEuR2V0UGxheWVyRGV0YWls",
+            "UmVzcG9uc2VCXwoNY29tLmhpdmVuZy52MUIJQXV0aFByb3RvUAGiAgNIWFiq",
+            "AglIaXZlbmcuVjHKAglIaXZlbmdcVjHiAhVIaXZlbmdcVjFcR1BCTWV0YWRh",
+            "dGHqAgpIaXZlbmc6OlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Hiveng.V1.CommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Hiveng.V1.IdentityProvider), typeof(global::Hiveng.V1.ClientPlatform), typeof(global::Hiveng.V1.PlayerSearchField), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -164,6 +179,10 @@ namespace Hiveng.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Hiveng.V1.StartFacebookDesktopLoginResponse), global::Hiveng.V1.StartFacebookDesktopLoginResponse.Parser, new[]{ "AuthorizationUrl" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Hiveng.V1.CompleteFacebookDesktopLoginRequest), global::Hiveng.V1.CompleteFacebookDesktopLoginRequest.Parser, new[]{ "CompletionCode" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Hiveng.V1.CompleteFacebookDesktopLoginResponse), global::Hiveng.V1.CompleteFacebookDesktopLoginResponse.Parser, new[]{ "Player", "TokenPair" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Hiveng.V1.StartAppleLoginRequest), global::Hiveng.V1.StartAppleLoginRequest.Parser, new[]{ "ClientId", "ReturnUrl", "Platform", "CodeChallenge" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Hiveng.V1.StartAppleLoginResponse), global::Hiveng.V1.StartAppleLoginResponse.Parser, new[]{ "AuthorizationUrl" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Hiveng.V1.CompleteAppleLoginRequest), global::Hiveng.V1.CompleteAppleLoginRequest.Parser, new[]{ "AuthorizationCode", "CodeVerifier" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Hiveng.V1.CompleteAppleLoginResponse), global::Hiveng.V1.CompleteAppleLoginResponse.Parser, new[]{ "Player", "TokenPair" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Hiveng.V1.RefreshTokenRequest), global::Hiveng.V1.RefreshTokenRequest.Parser, new[]{ "RefreshToken" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Hiveng.V1.RefreshTokenResponse), global::Hiveng.V1.RefreshTokenResponse.Parser, new[]{ "TokenPair" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Hiveng.V1.LogoutRequest), global::Hiveng.V1.LogoutRequest.Parser, null, null, null, null, null),
@@ -3256,6 +3275,1001 @@ namespace Hiveng.V1 {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class StartAppleLoginRequest : pb::IMessage<StartAppleLoginRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<StartAppleLoginRequest> _parser = new pb::MessageParser<StartAppleLoginRequest>(() => new StartAppleLoginRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<StartAppleLoginRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[11]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StartAppleLoginRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StartAppleLoginRequest(StartAppleLoginRequest other) : this() {
+      clientId_ = other.clientId_;
+      returnUrl_ = other.returnUrl_;
+      platform_ = other.platform_;
+      codeChallenge_ = other.codeChallenge_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StartAppleLoginRequest Clone() {
+      return new StartAppleLoginRequest(this);
+    }
+
+    /// <summary>Field number for the "client_id" field.</summary>
+    public const int ClientIdFieldNumber = 1;
+    private string clientId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string ClientId {
+      get { return clientId_; }
+      set {
+        clientId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "return_url" field.</summary>
+    public const int ReturnUrlFieldNumber = 2;
+    private string returnUrl_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string ReturnUrl {
+      get { return returnUrl_; }
+      set {
+        returnUrl_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "platform" field.</summary>
+    public const int PlatformFieldNumber = 3;
+    private global::Hiveng.V1.ClientPlatform platform_ = global::Hiveng.V1.ClientPlatform.Unspecified;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Hiveng.V1.ClientPlatform Platform {
+      get { return platform_; }
+      set {
+        platform_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "code_challenge" field.</summary>
+    public const int CodeChallengeFieldNumber = 4;
+    private string codeChallenge_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string CodeChallenge {
+      get { return codeChallenge_; }
+      set {
+        codeChallenge_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as StartAppleLoginRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(StartAppleLoginRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClientId != other.ClientId) return false;
+      if (ReturnUrl != other.ReturnUrl) return false;
+      if (Platform != other.Platform) return false;
+      if (CodeChallenge != other.CodeChallenge) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClientId.Length != 0) hash ^= ClientId.GetHashCode();
+      if (ReturnUrl.Length != 0) hash ^= ReturnUrl.GetHashCode();
+      if (Platform != global::Hiveng.V1.ClientPlatform.Unspecified) hash ^= Platform.GetHashCode();
+      if (CodeChallenge.Length != 0) hash ^= CodeChallenge.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (ClientId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ClientId);
+      }
+      if (ReturnUrl.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ReturnUrl);
+      }
+      if (Platform != global::Hiveng.V1.ClientPlatform.Unspecified) {
+        output.WriteRawTag(24);
+        output.WriteEnum((int) Platform);
+      }
+      if (CodeChallenge.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(CodeChallenge);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (ClientId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ClientId);
+      }
+      if (ReturnUrl.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ReturnUrl);
+      }
+      if (Platform != global::Hiveng.V1.ClientPlatform.Unspecified) {
+        output.WriteRawTag(24);
+        output.WriteEnum((int) Platform);
+      }
+      if (CodeChallenge.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(CodeChallenge);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClientId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClientId);
+      }
+      if (ReturnUrl.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ReturnUrl);
+      }
+      if (Platform != global::Hiveng.V1.ClientPlatform.Unspecified) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Platform);
+      }
+      if (CodeChallenge.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CodeChallenge);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(StartAppleLoginRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClientId.Length != 0) {
+        ClientId = other.ClientId;
+      }
+      if (other.ReturnUrl.Length != 0) {
+        ReturnUrl = other.ReturnUrl;
+      }
+      if (other.Platform != global::Hiveng.V1.ClientPlatform.Unspecified) {
+        Platform = other.Platform;
+      }
+      if (other.CodeChallenge.Length != 0) {
+        CodeChallenge = other.CodeChallenge;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ClientId = input.ReadString();
+            break;
+          }
+          case 18: {
+            ReturnUrl = input.ReadString();
+            break;
+          }
+          case 24: {
+            Platform = (global::Hiveng.V1.ClientPlatform) input.ReadEnum();
+            break;
+          }
+          case 34: {
+            CodeChallenge = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            ClientId = input.ReadString();
+            break;
+          }
+          case 18: {
+            ReturnUrl = input.ReadString();
+            break;
+          }
+          case 24: {
+            Platform = (global::Hiveng.V1.ClientPlatform) input.ReadEnum();
+            break;
+          }
+          case 34: {
+            CodeChallenge = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class StartAppleLoginResponse : pb::IMessage<StartAppleLoginResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<StartAppleLoginResponse> _parser = new pb::MessageParser<StartAppleLoginResponse>(() => new StartAppleLoginResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<StartAppleLoginResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[12]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StartAppleLoginResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StartAppleLoginResponse(StartAppleLoginResponse other) : this() {
+      authorizationUrl_ = other.authorizationUrl_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StartAppleLoginResponse Clone() {
+      return new StartAppleLoginResponse(this);
+    }
+
+    /// <summary>Field number for the "authorization_url" field.</summary>
+    public const int AuthorizationUrlFieldNumber = 1;
+    private string authorizationUrl_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string AuthorizationUrl {
+      get { return authorizationUrl_; }
+      set {
+        authorizationUrl_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as StartAppleLoginResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(StartAppleLoginResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (AuthorizationUrl != other.AuthorizationUrl) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (AuthorizationUrl.Length != 0) hash ^= AuthorizationUrl.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (AuthorizationUrl.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(AuthorizationUrl);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (AuthorizationUrl.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(AuthorizationUrl);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (AuthorizationUrl.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(AuthorizationUrl);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(StartAppleLoginResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.AuthorizationUrl.Length != 0) {
+        AuthorizationUrl = other.AuthorizationUrl;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            AuthorizationUrl = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            AuthorizationUrl = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class CompleteAppleLoginRequest : pb::IMessage<CompleteAppleLoginRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<CompleteAppleLoginRequest> _parser = new pb::MessageParser<CompleteAppleLoginRequest>(() => new CompleteAppleLoginRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<CompleteAppleLoginRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[13]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CompleteAppleLoginRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CompleteAppleLoginRequest(CompleteAppleLoginRequest other) : this() {
+      authorizationCode_ = other.authorizationCode_;
+      codeVerifier_ = other.codeVerifier_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CompleteAppleLoginRequest Clone() {
+      return new CompleteAppleLoginRequest(this);
+    }
+
+    /// <summary>Field number for the "authorization_code" field.</summary>
+    public const int AuthorizationCodeFieldNumber = 1;
+    private string authorizationCode_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string AuthorizationCode {
+      get { return authorizationCode_; }
+      set {
+        authorizationCode_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "code_verifier" field.</summary>
+    public const int CodeVerifierFieldNumber = 2;
+    private string codeVerifier_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string CodeVerifier {
+      get { return codeVerifier_; }
+      set {
+        codeVerifier_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as CompleteAppleLoginRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(CompleteAppleLoginRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (AuthorizationCode != other.AuthorizationCode) return false;
+      if (CodeVerifier != other.CodeVerifier) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (AuthorizationCode.Length != 0) hash ^= AuthorizationCode.GetHashCode();
+      if (CodeVerifier.Length != 0) hash ^= CodeVerifier.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (AuthorizationCode.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(AuthorizationCode);
+      }
+      if (CodeVerifier.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(CodeVerifier);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (AuthorizationCode.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(AuthorizationCode);
+      }
+      if (CodeVerifier.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(CodeVerifier);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (AuthorizationCode.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(AuthorizationCode);
+      }
+      if (CodeVerifier.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CodeVerifier);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(CompleteAppleLoginRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.AuthorizationCode.Length != 0) {
+        AuthorizationCode = other.AuthorizationCode;
+      }
+      if (other.CodeVerifier.Length != 0) {
+        CodeVerifier = other.CodeVerifier;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            AuthorizationCode = input.ReadString();
+            break;
+          }
+          case 18: {
+            CodeVerifier = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            AuthorizationCode = input.ReadString();
+            break;
+          }
+          case 18: {
+            CodeVerifier = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class CompleteAppleLoginResponse : pb::IMessage<CompleteAppleLoginResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<CompleteAppleLoginResponse> _parser = new pb::MessageParser<CompleteAppleLoginResponse>(() => new CompleteAppleLoginResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<CompleteAppleLoginResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[14]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CompleteAppleLoginResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CompleteAppleLoginResponse(CompleteAppleLoginResponse other) : this() {
+      player_ = other.player_ != null ? other.player_.Clone() : null;
+      tokenPair_ = other.tokenPair_ != null ? other.tokenPair_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CompleteAppleLoginResponse Clone() {
+      return new CompleteAppleLoginResponse(this);
+    }
+
+    /// <summary>Field number for the "player" field.</summary>
+    public const int PlayerFieldNumber = 1;
+    private global::Hiveng.V1.Player player_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Hiveng.V1.Player Player {
+      get { return player_; }
+      set {
+        player_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "token_pair" field.</summary>
+    public const int TokenPairFieldNumber = 2;
+    private global::Hiveng.V1.TokenPair tokenPair_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Hiveng.V1.TokenPair TokenPair {
+      get { return tokenPair_; }
+      set {
+        tokenPair_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as CompleteAppleLoginResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(CompleteAppleLoginResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Player, other.Player)) return false;
+      if (!object.Equals(TokenPair, other.TokenPair)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (player_ != null) hash ^= Player.GetHashCode();
+      if (tokenPair_ != null) hash ^= TokenPair.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (player_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Player);
+      }
+      if (tokenPair_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(TokenPair);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (player_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Player);
+      }
+      if (tokenPair_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(TokenPair);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (player_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Player);
+      }
+      if (tokenPair_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(TokenPair);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(CompleteAppleLoginResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.player_ != null) {
+        if (player_ == null) {
+          Player = new global::Hiveng.V1.Player();
+        }
+        Player.MergeFrom(other.Player);
+      }
+      if (other.tokenPair_ != null) {
+        if (tokenPair_ == null) {
+          TokenPair = new global::Hiveng.V1.TokenPair();
+        }
+        TokenPair.MergeFrom(other.TokenPair);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (player_ == null) {
+              Player = new global::Hiveng.V1.Player();
+            }
+            input.ReadMessage(Player);
+            break;
+          }
+          case 18: {
+            if (tokenPair_ == null) {
+              TokenPair = new global::Hiveng.V1.TokenPair();
+            }
+            input.ReadMessage(TokenPair);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (player_ == null) {
+              Player = new global::Hiveng.V1.Player();
+            }
+            input.ReadMessage(Player);
+            break;
+          }
+          case 18: {
+            if (tokenPair_ == null) {
+              TokenPair = new global::Hiveng.V1.TokenPair();
+            }
+            input.ReadMessage(TokenPair);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class RefreshTokenRequest : pb::IMessage<RefreshTokenRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3270,7 +4284,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3468,7 +4482,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3675,7 +4689,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3836,7 +4850,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3997,7 +5011,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[15]; }
+      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[19]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4158,7 +5172,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[16]; }
+      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[20]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4365,7 +5379,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[17]; }
+      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4563,7 +5577,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[18]; }
+      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[22]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4770,7 +5784,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[19]; }
+      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[23]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5076,7 +6090,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[20]; }
+      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[24]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5237,7 +6251,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[21]; }
+      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[25]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5472,7 +6486,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[22]; }
+      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[26]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5659,7 +6673,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[23]; }
+      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[27]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5934,7 +6948,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[24]; }
+      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[28]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6095,7 +7109,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[25]; }
+      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[29]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6450,7 +7464,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[26]; }
+      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[30]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6683,7 +7697,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[27]; }
+      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[31]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6955,7 +7969,7 @@ namespace Hiveng.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[28]; }
+      get { return global::Hiveng.V1.AuthReflection.Descriptor.MessageTypes[32]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
