@@ -2176,7 +2176,7 @@ namespace Hiveng.V1 {
     public const int FromDateFieldNumber = 2;
     private string fromDate_ = "";
     /// <summary>
-    /// "YYYY-MM-DD" (UTC, 포함)
+    /// "YYYY-MM-DD" (UTC, 포함). from_date와 to_date는 같은 달이어야 한다.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2191,7 +2191,7 @@ namespace Hiveng.V1 {
     public const int ToDateFieldNumber = 3;
     private string toDate_ = "";
     /// <summary>
-    /// "YYYY-MM-DD" (UTC, 포함)
+    /// "YYYY-MM-DD" (UTC, 포함). from_date와 to_date는 같은 달이어야 한다.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3737,7 +3737,7 @@ namespace Hiveng.V1 {
     public const int FromDateFieldNumber = 2;
     private string fromDate_ = "";
     /// <summary>
-    /// "YYYY-MM-DD" (UTC, 포함)
+    /// "YYYY-MM-DD" (UTC, 포함). from_date와 to_date는 같은 달이어야 한다.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3752,7 +3752,7 @@ namespace Hiveng.V1 {
     public const int ToDateFieldNumber = 3;
     private string toDate_ = "";
     /// <summary>
-    /// "YYYY-MM-DD" (UTC, 포함)
+    /// "YYYY-MM-DD" (UTC, 포함). from_date와 to_date는 같은 달이어야 한다.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -4738,6 +4738,9 @@ namespace Hiveng.V1 {
     /// <summary>Field number for the "from_date" field.</summary>
     public const int FromDateFieldNumber = 2;
     private string fromDate_ = "";
+    /// <summary>
+    /// "YYYY-MM-DD" (UTC, 포함). to_date까지 정확히 8개 날짜여야 한다.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string FromDate {
@@ -4750,6 +4753,9 @@ namespace Hiveng.V1 {
     /// <summary>Field number for the "to_date" field.</summary>
     public const int ToDateFieldNumber = 3;
     private string toDate_ = "";
+    /// <summary>
+    /// "YYYY-MM-DD" (UTC, 포함). from_date부터 정확히 8개 날짜여야 한다.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string ToDate {
@@ -4764,6 +4770,9 @@ namespace Hiveng.V1 {
     private static readonly pb::FieldCodec<int> _repeated_retentionDays_codec
         = pb::FieldCodec.ForInt32(34);
     private readonly pbc::RepeatedField<int> retentionDays_ = new pbc::RepeatedField<int>();
+    /// <summary>
+    /// D1~D7. 비어 있으면 D1~D7 전체를 조회한다.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<int> RetentionDays {
