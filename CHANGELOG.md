@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.1
+
+- Added the generated `DEPENDENCY_UNAVAILABLE` error code.
+- Refreshed generated authentication and statistics protocol types.
+
 ## 0.4.0
 
 - Changed `LoginAsGuestAsync(deviceId)` to `LoginAsGuestAsync()` and use an SDK-generated installation credential.
